@@ -9,7 +9,7 @@ def let_us_shop(shopping_list):
     print('I completed my shopping')
     print('I am at the registry for payment')
     print('Payment is completed')
-    print('driving back to home \n\n')
+    print('driving back home \n\n')
 
 let_us_shop(['Banana', 'carrot', 'milk', 'juice'])
 
