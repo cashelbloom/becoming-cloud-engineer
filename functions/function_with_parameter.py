@@ -1,9 +1,9 @@
 def let_us_shop(shopping_list):
     print(f'These are the items I am going to buy: {shopping_list}')
     print(f'I am going to pick up the first itme from the list: {shopping_list[0]}')
-    print(f'I am going to pick up the first itme from the list: {shopping_list[2]}')
-    print(f'I am going to pick up the first itme from the list: {shopping_list[3]}')
-    print(f'I am going to pick up the first itme from the list: {shopping_list[1]}')
+    print(f'I am going to pick up the third itme from the list: {shopping_list[2]}')
+    print(f'I am going to pick up the fourth itme from the list: {shopping_list[3]}')
+    print(f'I am going to pick up the second itme from the list: {shopping_list[1]}')
     print('I am in Walmart')
     print('I am buying stuffs in my shopping list')
     print('I completed my shopping')
