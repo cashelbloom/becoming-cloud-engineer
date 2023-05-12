@@ -1,5 +1,7 @@
 price_of_items = {'apples': 0.50, 'dhaMilk': 6.00, 'proteinShake': 26.00, 'bread': 3.50, 'eggsCarton': 6.50}
 
+# new added commandgit 
+# new comment by Radha - 05/11/2022
 def shop_all_items(money_available, shopping_list):
     my_items = shopping_list.keys()
     total_cost_of_shopping_all_items = 0
