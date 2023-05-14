@@ -1,0 +1,6 @@
+To enter commit comment in gitbash:
+	Simply start typing the commit comment on the first line
+	Give a meaningful description in the next line and subsequent lines as appropriate
+		Next, press the "esc" key followed by entering the following key sequence:
+			:wq
+		This will result in the "vim" editor closing and landing back on the gitbash window.
