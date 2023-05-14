@@ -19,3 +19,10 @@ Problems for your practice:
 		1. The function will have 2 parameters, 'data_types' 'data_type_desc
 			data_types will have the names of data types as in Python language
 			data_type_desc will have the description for each of data types
+#################################################################################
+    3. You have certain number of cookies to sell for your kid's school fund-raising.
+        Using "while loop", write a program (with a function) to sell all the cookies and find the total sales value.
+        You will receive the number cookies to sell thru input function.
+        The number of cookies you would sell is received in the function argument as argument.
+        You would sell all cookies and each cookie is for $0.50.
+        Print the total number of cookies received and the total sales price.
