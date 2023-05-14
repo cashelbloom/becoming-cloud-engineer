@@ -1,0 +1,8 @@
+Problems for your practice:
+	1. Store the 4 primitive data types (str, int, float, bool) and the 2 advance data types (list and dict) in a list. Now, using "for" loop, print each of the types with this verbiage: 
+		1. str is for String values.
+		2. int is for Integer values.
+		3. float is for Decimal values.
+		4. bool is for Boolean values
+		5. list is for collection of values, accessed by index.
+		6. dict is also for collection of values; but each value is stored with a corresponding key. There CAN NOT be duplicate keys in a dict data type.
