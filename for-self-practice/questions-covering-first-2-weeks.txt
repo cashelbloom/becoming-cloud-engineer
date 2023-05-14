@@ -1,3 +1,6 @@
+1. First you try on your own as much as possible.
+2. Whatever you are able to complete coding for, save the .py file 
+##########################################################################
 Problems for your practice:
 	1. Store the 4 primitive data types (str, int, float, bool) and the 2 advance data types (list and dict) in a list. Now, using "for" loop, print each of the types with this verbiage: 
 		1. str is for String values.
@@ -6,3 +9,13 @@ Problems for your practice:
 		4. bool is for Boolean values
 		5. list is for collection of values, accessed by index.
 		6. dict is also for collection of values; but each value is stored with a corresponding key. There CAN NOT be duplicate keys in a dict data type.
+ (The knowledge area covered in the above practice problem:
+	1. Creating a list variable and initializing values in it.
+	2. Coding a "for" loop and iterating thru the list
+	3. Using the "item" (a variable in the for loop) to call in the print statement.
+	4. Making use of the index value to print the serial number (such 1, 2, and so on).
+################################################################################
+	2. Use a function to get the output of the above question.
+		1. The function will have 2 parameters, 'data_types' 'data_type_desc
+			data_types will have the names of data types as in Python language
+			data_type_desc will have the description for each of data types
