@@ -40,4 +40,4 @@ Add the SSH key to your account on GitHub. For more information, see "Adding a n
 
 	Click Add SSH key.
 
-	If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."
+	If prompted, confirm access to your account on GitHub. For more information, see "Sudo mode."Adding a new line at the end of the current contentsAdding a new line at the end of the current contents
