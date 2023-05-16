@@ -1,0 +1,21 @@
+Mode	Description
+r	Open a file for reading. (default)
+w	Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.
+x	Open a file for exclusive creation. If the file already exists, the operation fails.
+a	Open a file for appending at the end of the file without truncating it. Creates a new file if it does not exist.
+t	Open in text mode. (default)
+b	Open in binary mode.
++	Open a file for updating (reading and writing)
+
+the + is used with 'r+' to indicate the file is expected to be opened in read and write mode.
+
+All the above modes are the second parameter for the buil-in function - open()
+All the values for the second parameter will be enclose in single or double quotes.
+
+Example using x:
+with open('../instructions/test_file.txt', 'x') as sample_file:
+    sample_file.write('A new line is added.')
+    print(sample_file)
+
+The above block of code when executed will throw this exception:
+   "FileExistsError: [Errno 17] File exists: '../instructions/test_file.txt'"
