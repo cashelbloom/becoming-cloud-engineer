@@ -1,0 +1,10 @@
+1. Create a function that will take a dictionary containing student id as the key and
+its value will be subject-wise scores. The subjects are:
+English, Math, Science, Social, Compscience.
+Your program has to list the top scorers (using their student id) in each subject.
+
+2. Create a JSON string and get that string into a Python dictionary. Print out the data type of the Python dictionary.
+
+3. Create a file that has JSON string. Read the file and and get the contents onto a Python dictionary.
+Now create 2 lists, one containing all the keys and the other list containing all the values.
+Print the third value from the values list.
