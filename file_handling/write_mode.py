@@ -7,3 +7,6 @@ print(my_file_contents)
 my_sample_file.close()
 
 
+with open('../instructions/test_file.txt', 'x') as sample_file:
+    sample_file.write('A new line is added.')
+    print(sample_file)

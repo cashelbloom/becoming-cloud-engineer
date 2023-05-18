@@ -1,0 +1,5 @@
+JSON = Java Script Object Notation
+
+JSON values are written like Python dict(ionary)
+
+{'key': 'value', 'nextKey': 'Next'}
