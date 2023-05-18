@@ -6,7 +6,6 @@ Your program has to list the top scorers (using their student id) in each subjec
 '''
 import json
 #
-dict_stu_scores = {}
 with open('student_scores.json') as stu_scores:
     dict_stu_scores = json.load(stu_scores)
     # print(dict_stu_scores)
