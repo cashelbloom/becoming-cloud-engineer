@@ -1,0 +1,6 @@
+This file has problem statements that I would like you to write python programs
+and see if you can get expected results:
+
+1. Write one program for each mode of file opening.
+2. For various modes of opening, see the file in the directory: instructions
+    file name is: various_file_opening_modes.txt

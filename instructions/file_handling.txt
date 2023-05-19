@@ -16,4 +16,4 @@ To open:
 	To open a file in "write" mode:
 		my_file = open('my_sample_file', 'w')
 			If the file 'my_sample_file' file doesn't exist, then a new file with the same  name created and opened for write.
-			If the file 'my_sameple_file' exists already, 
+			If the file 'my_sameple_file' exists already, then the file is overwritten and a
