@@ -29,7 +29,7 @@
 # for item in rainfall_in_a_week:
 #     print(item)
 #     print(f' data type of rainfall_in_a_week is:{type(rainfall_in_a_week)}')
-
+print("hello")
 
 
 
