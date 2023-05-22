@@ -58,7 +58,7 @@ for i in range(0,4):
     # menu_items_list.remove()
 print(ordered_items)
 print(f'This is your total price of the order: {total_cost}')
-taxes = decimal.Decimal(total_cost * 10/100)
+taxes = decimal.Decimal(total_cost * 12/100)
 taxes = taxes.quantize(decimal.Decimal('0.00'))
 print(f'This is the tax on your order: {taxes}')
 tips = decimal.Decimal(total_cost * 15/100)
