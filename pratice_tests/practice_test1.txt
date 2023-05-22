@@ -1,0 +1,36 @@
+1. Write print statement passing a Python built-in function. The custom verbiage inside the print statement should include the key objective of the function passed.
+	For example:
+		my_custom_variable = True
+		print(f'The objective of the built-in function "type" is to get the data type of the parameter value passed to the "type" function: {type(my_custom_variable)}')
+
+2. You have a variable: str_true = 'True'
+		Write a print statement that will print the data type of the str_true as <class 'bool'>
+
+
+3. Write your function that will take 2 whole numbers and print the remainder of the division of the first number by the second number. Use modulo operator available in Python.
+	(modulo operator in Python is %)
+
+4. Read the menu card of a restuarant and select any 4 items and print the total bill. The total bill includes 12% taxes and 15% tips.
+	Vegetable Biriyani = $10.00
+	Aallu Mutter = $13.00
+	Naan = $0.50
+	Tanduri Roti = $0.75
+	Coffee = $1.00
+	Panneer Tikka Masaala = $15.00
+	Pakkoda = $1.50
+	Cake = $4.00
+	Almond Cashew Milk = $3.00
+	
+	You can come up with your own data structure for the menu card with the items and their price.
+	
+5. You have your restuarant open at 6:00pm for dinner. Your restuarant has seating capacity for 50 diners. Your customers called earlier in the day and made the following booking for seats. Here are the break up for the customers:
+	Family of John: 8 members
+	Rajan as single diner
+	Das with his wife and a child (needing an individual seat)
+	Joe comes with his girl friend
+	Gupta celebrating his son's birth day takes 12 seats
+	Gopi brings his 10 friends for a treat for his promotion
+	Create a suitable data structure to record the advance bookings and allow the booking to continue as long as seats are available. At any given point of time, you should know how many seats are available (if any)
+	
+	
+	
