@@ -1,3 +1,5 @@
+# Included .idea/ folder to be ignored from pushing to the remote branch
+.idea/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

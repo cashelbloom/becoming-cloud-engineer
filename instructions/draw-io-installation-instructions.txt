@@ -1,0 +1,17 @@
+Instructions for Downloading and Installing draw.io:
+	1. Open this link:
+		https://www.drawio.com/
+		click on "Download" button
+		In the page opened, reach out the section:
+			Assets
+			Under Assets, click on the link "draw.io-21.2.8-windows-installer.exe link
+			Once the installer.exe is downloaded to your computer:
+				go to your Downloads folder and double click the .exe file
+				Now it should launch the installer
+				Follow the on-screen questions and answer:
+					yes for the first question (seeking your permission to install)
+					accepting the installation location that is highlighed
+					Now click the install button
+		This should complete the installation.
+		
+	2. In case you have run into any issue, we can fix that in the next session.

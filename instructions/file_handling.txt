@@ -1,0 +1,19 @@
+File Handling in Python:
+
+These are the high level activities that we might do in Python programming, relating to files:
+	1. Open the file
+		When no option is specified when opening a file, the file will open in "Read" mode
+			argument to indicate "Read" mode is "r"
+	2. Do something thing with the contents of the file
+	
+	3. Finally close the file
+	
+To open:
+	create an assignment statement for referencing a physical file:
+		my_file = open('my_sample_file.txt', 'r')
+			The above statement opens a physical file 'my_sample_file' in read mode.
+		
+	To open a file in "write" mode:
+		my_file = open('my_sample_file', 'w')
+			If the file 'my_sample_file' file doesn't exist, then a new file with the same  name created and opened for write.
+			If the file 'my_sameple_file' exists already, then the file is overwritten and a
