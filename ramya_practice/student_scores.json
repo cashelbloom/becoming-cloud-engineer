@@ -1,0 +1,107 @@
+{
+  "students": {
+    "studentScores": [
+      {
+        "studentId": 1000,
+        "scores": {
+          "english": 89,
+          "math": 99,
+          "science": 88,
+          "social": 91,
+          "compscience": 98
+        }
+      },
+      {
+        "studentId": 1001,
+        "scores": {
+          "english": 88,
+          "math": 98,
+          "science": 89,
+          "social": 86,
+          "compscience": 90
+        }
+      },
+      {
+        "studentId": 1002,
+        "scores": {
+          "english": 90,
+          "math": 100,
+          "science": 88,
+          "social": 92,
+          "compscience": 88
+        }
+      },
+      {
+        "studentId": 1003,
+        "scores": {
+          "english": 68,
+          "math": 92,
+          "science": 91,
+          "social": 80,
+          "compscience": 85
+        }
+      },
+      {
+        "studentId": 1004,
+        "scores": {
+          "english": 72,
+          "math": 85,
+          "science": 87,
+          "social": 83,
+          "compscience": 88
+        }
+      },
+      {
+        "studentId": 1005,
+        "scores": {
+          "english": 87,
+          "math": 90,
+          "science": 91,
+          "social": 88,
+          "compscience": 92
+        }
+      },
+      {
+        "studentId": 1006,
+        "scores": {
+          "english": 82,
+          "math": 88,
+          "science": 86,
+          "social": 90,
+          "compscience": 89
+        }
+      },
+      {
+        "studentId": 1007,
+        "scores": {
+          "english": 75,
+          "math": 81,
+          "science": 80,
+          "social": 84,
+          "compscience": 92
+        }
+      },
+      {
+        "studentId": 1008,
+        "scores": {
+          "english": 77,
+          "math": 86,
+          "science": 85,
+          "social": 89,
+          "compscience": 82
+        }
+      },
+      {
+        "studentId": 1009,
+        "scores": {
+          "english": 93,
+          "math": 100,
+          "science": 90,
+          "social": 91,
+          "compscience": 90
+        }
+      }
+    ]
+  }
+}
+
