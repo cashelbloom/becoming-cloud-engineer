@@ -12,16 +12,17 @@ Create a flow chart for the Trophy Distribution Scenario:
 	
 	Here are the 10 short-listed students and their respective points under each category:
 	Student-ID	AE		SE		CP		SI		LD
-	1			9		8		8		6		7
-	2			10		8		7		7		7
-	3			9		7		7		8		7
-	4			8		8		7		7		8
-	5			9		8		6		8		7
-	6			8		8		8		8		7
-	7			9		7		8		7		8
-	8			10		7		7		8		8
-	9			9		7		8		7		8
-	10			9		8		7		8		8
+	1			9		8		8		6		7 = 38
+	2			10		8		7		7		7 = 39 + 2 = 41 III
+	3			9		7		7		8		7 = 38
+	4			8		8		7		7		8 = 38
+	5			9		8		6		8		7 = 38
+	6			8		8		8		8		7 = 39
+	7			9		7		8		7		8 = 39
+	8			10		7		7		8		8 = 40 + 42 I
+	9			9		7		8		7		8 = 39
+	10			9		8		7		8		8 = 40  II
+
 	
 	In the event of tie, the tie breakers are:
 		1. The one who has higher AE score will be awarded 2 extra points
