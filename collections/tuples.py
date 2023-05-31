@@ -92,6 +92,7 @@ print(f'Let me see what the last fruit in my_fruits_tuple: {my_fruits_tuple[-1]}
 print(f'let me count the number of fruits in my_fruits_tuple: {len(my_fruits_tuple)}')
 print(f'let me take the first and the last fruit from my_fruits_tuple: {my_fruits_tuple[0]}, {my_fruits_tuple[-1]}')
 print(f'we can use slicing to get a subset of elements from a tuple - first 4 fruits are taken: {my_fruits_tuple[:4]}')
+print(f'we can use slicing to get a subset of elements from a tuple - : {my_fruits_tuple[:]}')
 print(f'now taking the 4th and 5th fruits: {my_fruits_tuple[3:5]}')
 '''
 We can check if a specific element value exists in a tuple:
@@ -109,6 +110,7 @@ Here you go:
 second_fruit_tuple = tuple(('pineapple', 'apricot'))
 print({second_fruit_tuple})
 print(f'the data type of second_fruit_tuple : {type(second_fruit_tuple)}')
+print(f'the contents of second_fruit_tuple : {second_fruit_tuple}')
 # knowledge check: why should we have 2 sets of parantheses for the constructor?
 # adding another fruit to the second_fruit_tuple in an indirect way:
 second_fruit_list = list(second_fruit_tuple)

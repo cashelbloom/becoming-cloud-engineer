@@ -11,6 +11,11 @@ Now, you can read JSON data from a file into your processing program
         Here is the code:'''
 #############################################################################
 my_test_file = open('my_json_file.txt')
+data_from_file = my_test_file.read()
+print(f'the data from file before any formatting: {data_from_file}')
+print(f'the data type of data_from_file : {type(data_from_file)}')
+my_test_file.close()
+my_test_file = open('my_json_file.txt')
 my_json_from_file = json.load(my_test_file)
 print(my_json_from_file)
 print(f'the data type of my_json_from_file is:  {type(my_json_from_file)}')
@@ -32,8 +37,10 @@ The variable receiving the JSON data is of type 'dict'.
 '''
 my_json_data = {"name": "John", "age": "30", "city": "New York"}
 print(f'The data type of my_json_data is: {type(my_json_data)}')
-print(f'The data type of my_json_data is: {my_json_data}')
-my_dict_containing_json = json.loads(str(my_json_data))
+# my_dict_containing_json = json.loads(my_json_data)
+my_json_data_str = '{"name": "John", "age": "30", "city": "New York"}'
+print(f'The data type of my_json_data_str is: {type(my_json_data_str)}')
+my_dict_containing_json = json.loads(my_json_data_str)
 print(f'The data type of my_dict_containing_json is: {type(my_dict_containing_json)}')
 '''
 Similarly, you have JSON data in your processing program. But, you want to have that data as a string for whatever
