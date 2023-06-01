@@ -1,0 +1,31 @@
+Hello All,
+I have pushed multiple files today to the main branch for becoming-cloud-engineer rep in github.com. 
+You can pull the updates using the git commands to your branch - if you have one.
+	Here are the sequence of commands if you have your branch locally:
+
+1. change directory to the root of your local branch, using gitbash
+	for example, if you have cloned the 'becoming-cloud-engineer' project to your c:/gitrepos/becoming-cloud-engineer -then c:/gitrepos/becoming-cloud-engineer -Once you execute this on your gitbash CLI (command line interface), you will see:
+	c:/gitrepos/becoming-cloud-engineer(your branch name in green)
+
+2. execute git status . (there is a dot after a blank space after status)
+	This will list the files that have been created, modified, and / or deleted in your local branch
+
+3. To accept all the changes listed, run the command:
+	git add .
+	(there is a dot after a blank space after add)
+
+4. run the command: git commit -m 'put some comments here between a pair of quotes'
+
+5. Now run the command: git checkout main
+	this will change the branch in your workspace to main
+
+6 Now run the command: git pull origin man
+	this will get all the latest files in the remote main branch to your local main branch
+
+7. Now run the command: git checkout yourlocalbranch
+	this will get your local branch to the workspace, replacing the main branch from your workspace
+
+8. Now run the command: git merge main
+	this will get all the latest files from your local main to your local branch.
+
+With the above steps, now your local branch in local workspace will have the latest from the main branch in the github.com server

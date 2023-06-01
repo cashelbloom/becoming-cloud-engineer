@@ -16,3 +16,5 @@ with open('my_json_file.txt') as my_json_read_file:
 
 # my_py_dict = {'myKey': "myValue"}
 # print(f'I am printing value from my_py_dict: {my_py_dict["myKey"]}')
+
+my_file = 'my_json_file.txt'

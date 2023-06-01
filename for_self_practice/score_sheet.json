@@ -1,0 +1,54 @@
+{
+    "scoreSheet": [
+        {
+            "studentId": 1,
+            "categoryScores": {
+                "AE": 9, "SE": 8, "CP": 8, "SI":6, "LD": 7}
+        },
+        {
+            "studentId": 2,
+            "categoryScores": {
+                "AE": 10, "SE": 8, "CP": 7, "SI":7, "LD": 7}
+        },
+        {
+            "studentId": 3,
+            "categoryScores": {
+                "AE": 9, "SE": 7, "CP": 7, "SI":8, "LD": 7}
+        },
+        {
+            "studentId": 4,
+            "categoryScores": {
+                "AE": 8, "SE": 8, "CP": 7, "SI":7, "LD": 8}
+        },
+        {
+            "studentId": 5,
+            "categoryScores": {
+                "AE": 9, "SE": 8, "CP": 6, "SI":8, "LD": 7}
+        },
+        {
+            "studentId": 6,
+            "categoryScores": {
+                "AE": 8, "SE": 8, "CP": 8, "SI":8, "LD": 7}
+        },
+        {
+            "studentId": 7,
+            "categoryScores": {
+                "AE": 9, "SE": 7, "CP": 8, "SI":7, "LD": 8}
+        },
+        {
+            "studentId": 8,
+            "categoryScores": {
+                "AE": 10, "SE": 7, "CP": 7, "SI":8, "LD": 8}
+        },
+        {
+            "studentId": 9,
+            "categoryScores": {
+                "AE": 9, "SE": 7, "CP": 8, "SI":7, "LD": 8}
+        },
+        {
+            "studentId": 10,
+            "categoryScores": {
+                "AE": 9, "SE": 8, "CP": 7, "SI":8, "LD": 8}
+        }
+    ]
+}
