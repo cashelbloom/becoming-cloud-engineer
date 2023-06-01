@@ -1,0 +1,6 @@
+{
+  "contestants":
+          [
+            {"john": "elephant"}, {"david":  "donkey"}, {"morgan": "boat"}, {"beth":  "airplane"}
+          ]
+}
