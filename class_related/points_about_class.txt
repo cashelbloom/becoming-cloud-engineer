@@ -1,0 +1,21 @@
+classes in Python:
+keyword: class 
+name: PascalCase
+
+built-in function: __init__(self, param1,...)
+	initialize the parameters included in the param list as:
+		self.param1 = 'afdf'
+		and so on
+the __init__ is something like constructor in Java.
+
+the params are the attributes of the class
+
+You have to instantiate a class to bring to life an object of that class - remember the architect, builder, and a customer
+
+
+__str__ built-in function:
+
+self - can be any name. But it has to be the first parameter as the class is defined and in any function parameter list.
+
+del key word to delete (for deleting a property as well as 
+		
