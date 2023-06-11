@@ -1,0 +1,40 @@
+I have given the following data for you to write a program that I call voter verification.
+ This program needs to be user-interactive.
+
+See the info below:
+
+First your program has to list the voter names, associating each name to an alphabet (as you can see below).
+
+Each voter's name comes from a list that has one tuple for each voter.
+Each tuple has 2 elements, the first one to be an integer and the second one is the voter's name.
+You can see below the voters list.
+
+After listing all the voters' names, there should be another message displaying for the user to enter the alphabet corresponding to their name.
+In the listing below, you can see the alphabet 'j' has been entered.
+
+The next prompt for the user is asking them to enter the voter id (this the voter should know so the verification can be done by comparing the number entered against the number included in their tuple. You can see this in the blue color list of tuples.
+Once the user enters an integer, you program should take both the name and the voter id integer and verify if they match with what you have in the list of tuples.
+
+In the listing below, I have entered 'j' (without the pair of quotes) to select Manoj. Then I entered 5 for the voter id for Manoj.
+
+The program went thru the list of tuples and found one tuple containing matching data that I entered. So, it printed the verification result - you can see this at the very bottom.
+Hope, you understand the above problem statement clearly. Attempt your program and see if you are able to get the code working correctly for you.
+
+We will start building an electronic voting application as our full-blown project. Please let me know if you have questions. You can email them.
+
+a : Rajam
+b : Ravi
+c : Radha
+d : Ramya
+e : Raghu
+f : Rashmi
+g : Rajam
+h : Rangan
+i : Ram
+j : Manoj
+Enter the letter corresponding to your name: j
+Enter your voter id number: 5
+This is the voters list:
+ [(1, 'Ram'), (2, 'Raghu'), (3, 'Ramya'), (4, 'Tharani'), (5, 'Manoj'), (6, 'Radha'), (7, 'Ravi'), (8, 'Rashmi'), (9, 'Rangan'), (10, 'Rajam')]
+Voter ID 5 is matched for voter: Manoj
+This is the verification result: True
