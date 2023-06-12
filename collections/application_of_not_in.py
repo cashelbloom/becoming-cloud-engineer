@@ -13,18 +13,21 @@ For this scenario, we can use the Dictionary Comprehension.
 '''
 original_voters_list = {'aaa': 1, 'bbb': 2, 'ccc': 3, 'ddd': 4, 'eee': 5, 'fff': 6, 'ggg': 7,
                         'hhh': 8, 'iii': 9, 'jjj': 10}
-print(f'original voters list: {original_voters_list}')
 current_voters_list = original_voters_list
+print(f'This is the start of the voters" list at the time polling commences: {current_voters_list}')
 voted_voters_list = {'aaa': 1, 'bbb': 2}
-# del {current_voters_list[k]} for k in voted_voters_list.keys()
-# print(f'New dict: {new_dict}')
-# print(f'original voters list {k: v for k,v in original_voters_list.items()}')
-remaining_voters = del current_voters_list[k] for k in voted_voters_list.items()
-# print(f'remaining voters: {remaining_voters}')
-########################
-# using range in list comprehension:
-new_list = [i * 2 for i in range(1,5)]
-print(f'new list from range: {new_list}')
+remaining_voters_list = {}
+for kc in current_voters_list.items():
+    can_add = True
+    for kv in voted_voters_list.items():
+        if kc[0] == kv[0]:
+            can_add = False
+            break
+    if can_add:
+        remaining_voters_list.update({kc[0]: kc[1]})
+        print(f'The value of kc: {kc}')
+print(f'Currently these are the voters remaining to vote: {remaining_voters_list}')
+##########################################################
 
 
 

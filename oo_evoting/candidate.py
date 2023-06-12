@@ -15,12 +15,12 @@ class Candidate:
         pass
 
 
-dem_anthem = Anthem('dem"s anthem', 'Dems anthem lyrics')
+dem_anthem = Anthem('dem"s anthem', 'Sing in praise of Joe Biden')
 dem_party = Party('Democrat', 'Donkey','blhablah', 'JB', dem_anthem)
-my_dem_candidate = Candidate('John', 'Male', 40, dem_party)
+my_dem_candidate = Candidate('Biden', 'Male', 80, dem_party)
 my_dem_candidate.party.sing_party_anthem()
 #
-repub_anthem = Anthem('Republican"s anthem', 'Sing Republican anthem lyrics')
+repub_anthem = Anthem('Republican"s anthem', 'Sing in praise of DT')
 repub_party = Party('Republican', 'Elephant', 'hihihi', 'DT', repub_anthem)
-my_republican_candidate = Candidate('Joe', 'Male', 30, repub_party)
+my_republican_candidate = Candidate('DT', 'Male', 78, repub_party)
 my_republican_candidate.party.sing_party_anthem()
