@@ -1,87 +1,83 @@
-#Looping through Lists and Tuples:
-# import json
-import random
-
-# 1. Create a python file as
-# 2. Read the contestants.json file, the one in this directory into a variable.
-# 3. Create a list of tuples that has 10 tuples and in each tuple, we have
-    # citizens = [(1, "citizen_1"), (2, "citizen_2"), (3, "citizen_3")]
-# 4. On election day, each of these people will be voting/casting the vote:
-# 5. Contestants
-
-# Casing:
-#python variable - snake casing
-# function names in python is snake casing
-
-#Obtaining individual indices from inside of a list of tuples:
-voters = [(1, "citizen_1", "Bangalore"), (2, "citizen_2", "majestic"), (3, "citizen_3", "J P nagar"), (4, "citizen_4", "BTM"),
-          (5, "citizen_5", "VV Puram"), (6, "citizen_6", "Mekhri Circle"), (7, "citizen_7", "Ulsoor"), (8, "citizen_8", "Jayanagar"),
-          (9, "citizen_9", "Chickpet"), (10, "citizen_10", "SheshadriPuram")]
-
-for x,y,z in voters:
-    # index += 1
-    print(f'The citizen"s Ids are: {x}')
-    print(f'The citizen"s name are: {y}')
-    print(f'The citizen"s area are: {z}')
-    print(f'The full details of voters are: {x}-{y}-{z}')
-
-#When the list contains multiple data types:
-voters = [(1, "citizen_1", "Bangalore"),"string"]
-
-"""
-Class - has attributes and methods. It is a blueprint of an object
-Attributes are characteristics
-Methods are capabilities
-
-Function def - parameters
-while calling the function, we pass arguments
-
-Blue print/class for a lawn:
- - Length & Width attributes
- - Reduces dust
-"""
+import json
+import os
+import sys
+# sys.path.append("/random_dir")
+import random_dir.randomint as ri
+import inclass_exercises.voters_list as vl
 
 
+# my_randintgen = ri.RandIntGen(1,5,1)
+# my_randintgen.generate_rand_int(20)
+
+def get_voter_name(voter_selection):
+    match voter_selection:
+        case 'a': return 'Rajam'
+        case 'b': return 'Ravi'
+        case 'c': return 'Radha'
+        case 'd': return 'Ramya'
+        case 'e': return 'Raghu'
+        case 'f': return 'Rashmi'
+        case 'g': return 'Rajam'
+        case 'h': return 'Rangan'
+        case 'i': return 'Ram'
+        case 'j': return 'Manoj'
+        case _: return 'Error'
 
 
-my_list_items = [[1, "citizen_1"],[2, "citizen_2"],[3, "citizen_3"], "str_1"]
+def verify_voter_id(voter_id, voter_name) -> bool:
+    is_verified = False
+    print(f'This is the voters list:\n {vl.voters_list}')
+    for item in vl.voters_list:
+        # print(f'This is the item: {item}')
+        # print(f'The key is: {item[0]} The name is: {item[1]}')
+        if item[0] == voter_id and item[1] == voter_name:
+            print(f'Voter ID {voter_id} is matched for voter: {voter_name}')
+            is_verified = True
+            print(f'This is the verification result: {is_verified}')
+            return is_verified
+    print(f'This is the verification result: {is_verified}')
+    return is_verified
 
-for count in range(0,len(my_list_items)):
-    print(f'The iteration is {count}')
-    # print(f'The items are : {my_list_items[count][0]}--{my_list_items[count][1]}')
-    print(f'The items are : {my_list_items[count][0]}--{my_list_items[count][1]}')
+def distribute_ballot():
+    with open('contestants.json') as contestants:
+        contestants = json.load(contestants)
+        print(f'the contents of contestant: {contestants}')
+        print(f'The data type of contestants: {type(contestants)}')
+        for item in contestants['contestants']:
+            # k for k in item:
+            #     print(f'the outcome of calling list comprehension: {k}')
 
-stringtest = "Cloud"
-
-print(f'The first alphabet is: {stringtest[0]}{stringtest[1]}{stringtest[2]}{stringtest[3]}{stringtest[4]}')
-
-# for item, v in my_list_items:
-#     print(f'The iteration is: {my_list_items.}')
-#     print(f'V is {v}')
-#     print(f'Item is {item}')
-#     print(f'The list item is: {item}-{v}')
-#     print(f'Index is : {iteration}')
-#     iteration += 1
-
-
-
-print(f'My list is: {my_list_items}')
-
-# myfile = open("contestants.json", "r")
-# with open("contestants.json", "r") as myFileReader:
-#     my_file_handler = json.load(myFileReader)
-#     # my_file_handler = myFileReader.read()
-#     print(f'This is the data type of my_file_handler: {type(my_file_handler)}')
-#     print(f'My file is: {my_file_handler["contestants"]}')
-
-
-# index = 0
+        # for [*item] in contestants['contestants']:
+        #     print(f'Item data type is: {type(item)}')
+            # print(f'the keys in this dict are: {dict(item).keys()}')
+            # print(f'the values in this dict are: {dict(item).values()}')
+            print(f'contestant: {list(item.keys())[0]} and symbol: {list(item.values())[0]}')
+            # for k, v in item:
+            # print(f'Key is: {[*item][0]}')
 
 
+def display_voters_list():
+    print('a : Rajam')
+    print('b : Ravi')
+    print('c : Radha')
+    print('d : Ramya')
+    print('e : Raghu')
+    print('f : Rashmi')
+    print('g : Rajam')
+    print('h : Rangan')
+    print('i : Ram')
+    print('j : Manoj')
 
+display_voters_list()
+voter_selection = input('Enter the letter corresponding to your name: ')
+voter_name = get_voter_name(voter_selection)
 
+voter_id = int(input('Enter your voter id number: '))
 
-
+if verify_voter_id(voter_id, voter_name):
+    distribute_ballot()
+else:
+    print('Sorry, you couldn"t verify correctly; bring authentic proof for voting')
 
 
 
