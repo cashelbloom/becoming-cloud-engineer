@@ -1,0 +1,42 @@
+<mxfile host="Electron" modified="2023-06-14T02:47:21.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="iyh6sUQYuBzekjktVTsF" version="21.2.8" type="device" pages="2">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gsr58ZRTiUDZ3mZGDuNR-2" value="1. Candidate&lt;br&gt;2. Voter&lt;br&gt;3. Voterlist&lt;br&gt;4. Party" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="40" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsr58ZRTiUDZ3mZGDuNR-3" value="Candidate&lt;br&gt;Attributes&lt;br&gt;--------------&lt;br&gt;Party&lt;br&gt;Name&lt;br&gt;Gender&lt;br&gt;Age&lt;br&gt;&lt;br&gt;Capability&lt;br&gt;-------------&lt;br&gt;do_campaign()&lt;br&gt;make_promise()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="260" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsr58ZRTiUDZ3mZGDuNR-4" value="Voter&lt;br&gt;Attributes&lt;br&gt;--------------&lt;br&gt;Name&lt;br&gt;Gender&lt;br&gt;Age&lt;br&gt;Id&lt;br&gt;Constituency&lt;br&gt;&lt;br&gt;Capability&lt;br&gt;-------------&lt;br&gt;do_campaign()&lt;br&gt;make_promise()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="260" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsr58ZRTiUDZ3mZGDuNR-5" value="Voterlist&lt;br&gt;Attributes&lt;br&gt;--------------&lt;br&gt;[Voter]&lt;br&gt;date_creation&lt;br&gt;&lt;br&gt;Capability&lt;br&gt;-------------" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="260" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsr58ZRTiUDZ3mZGDuNR-6" value="Party&lt;br&gt;Attributes&lt;br&gt;--------------&lt;br&gt;Name&lt;br&gt;Symbol&lt;br&gt;Manifesto&lt;br&gt;President&lt;br&gt;&lt;br&gt;Capability&lt;br&gt;-------------&lt;br&gt;provide_funds()&lt;br&gt;enthuse_base()&lt;br&gt;select_candidates()" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="630" y="260" width="160" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9Amizg8JOhZvWnKAPRja" name="Page-2">
+    <mxGraphModel dx="186" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KoC8xqF7mIa5budJZhZl-1" value="eVoting System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="340" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoC8xqF7mIa5budJZhZl-2" value="1. Candidate&lt;br&gt;2. Voter&lt;br&gt;3. Symbol&lt;br&gt;4. Party&lt;br&gt;5. Voter ID&lt;br&gt;6. Polling Location&lt;br&gt;7. Ballot&amp;nbsp;&lt;br&gt;8. Counting&lt;br&gt;9. Voting Machine&lt;br&gt;10.Ink&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="370" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KoC8xqF7mIa5budJZhZl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="590" width="200" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
