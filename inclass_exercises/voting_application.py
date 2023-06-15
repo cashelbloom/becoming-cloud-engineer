@@ -4,7 +4,8 @@ import sys
 # sys.path.append("/random_dir")
 import random_dir.randomint as ri
 import inclass_exercises.voters_list as vl
-
+import my_constants
+from my_constants import NAME
 
 # my_randintgen = ri.RandIntGen(1,5,1)
 # my_randintgen.generate_rand_int(20)
@@ -25,7 +26,8 @@ def get_voter_name(voter_selection):
 
 
 def verify_voter_id(voter_id, voter_name) -> bool:
-    is_verified = False
+    # is_verified = False
+    global is_verified
     print(f'This is the voters list:\n {vl.voters_list}')
     for item in vl.voters_list:
         # print(f'This is the item: {item}')
@@ -68,6 +70,8 @@ def display_voters_list():
     print('i : Ram')
     print('j : Manoj')
 
+print(f'calling the value of a constant NAME: {NAME}')
+is_verified = False
 display_voters_list()
 voter_selection = input('Enter the letter corresponding to your name: ')
 voter_name = get_voter_name(voter_selection)
