@@ -15,3 +15,16 @@ Have 10 voters in your master voting list and have a while loop for 5 voters to 
 After the while loop, print the voters in the remaining_voters_list and the voted_voters_list and see if they print
 as expected.
 '''
+
+master_voting_list = {
+    "A": 11,
+    "B": 22,
+    "C": 33,
+    "D": 44,
+    "E": 55,
+    "F": 66,
+    "G": 77,
+    "H": 88,
+    "I": 99,
+    "J": 100
+}
