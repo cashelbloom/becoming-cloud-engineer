@@ -1,11 +1,13 @@
 '''
-In this exercise, you are going to write program that will provide a dictionary of the voters who have not yet voted on
-a given time on the voting day.
+In this exercise, you are going to write program that will provide a dictionary of the voters who have not
+yet voted on a given time on the voting day.
+
 You will have a master voting list as a Python dictionary that will contain all the voter names
-and their corresponding voter ids.
-This list will NOT change at all.
-You will have another dictionary that is the duplicate of the master voting list. At the beginning of the voting ,
-this duplicate voter list will have the exact voter list as in the master voting list.
+and their corresponding voter ids. This list will NOT change at all.
+
+You will have another dictionary that is the duplicate of the master voting list. At the beginning of the
+voting, this duplicate voter list will have the exact voter list as in the master voting list.
+
 Call this duplicate dictionary as remaining_voters_list
 You will have another voter list (a dictionary) that would hold the voters who have voted so far.
 Call this dictionary as voted_voters_list.
