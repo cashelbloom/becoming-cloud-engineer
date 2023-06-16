@@ -16,11 +16,8 @@
 # print(f'The sum of the two numbers passed is: {find_sum_kwargs(100)}')
 
 def find_sum(* number_of_numbers):
-
-
-
-print(f'The sum of the two numbers is {find_sum(100, 1500)}')
-print(f'The sum of the two numbers is {find_sum(10000, 15000)}')
+    print(f'The sum of the two numbers is {find_sum(100, 1500)}')
+    print(f'The sum of the two numbers is {find_sum(10000, 15000)}')
 
 
 

@@ -12,3 +12,21 @@ You are expected to write a Python program that will:
 
 The .csv file is located in the 'data_folder' and the file name is: 'nato_phonetic_alphabet.csv'
 '''
+#
+# import os
+# print(os.getcwd())
+# C:\gitrepos\becoming-cloud-engineer\data_folder\nato_phonetic_alphabet.csv
+
+import json
+
+
+with open('../../data_folder/nato_phonetic_alphabet.csv','r') as read_nato_file:
+     read_nato_file.read()
+     # nato_dic = json.load(read_nato_file)
+     # print(nato_dic)
+
+with open('example.json','r') as read_nato_file:
+     j = json.load(read_nato_file)
+     print(j)
+     print(type(j))
+

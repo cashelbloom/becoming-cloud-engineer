@@ -17,14 +17,34 @@ as expected.
 '''
 
 master_voting_list = {
-    "A": 11,
-    "B": 22,
-    "C": 33,
-    "D": 44,
-    "E": 55,
-    "F": 66,
-    "G": 77,
-    "H": 88,
-    "I": 99,
-    "J": 100
+    'Ramya': 1,
+    'Tharani': 2,
+    'Radha': 3,
+    'Manoj': 4,
+    'Raghu': 5,
+    'Ganesan': 6,
+    'Sreya': 7,
+    'Tanishi': 8,
+    'Kimaya': 9,
+    'Praku': 10
 }
+
+remaining_voters_list = master_voting_list.copy()
+print(remaining_voters_list)
+
+voted_voters_list = {}
+
+
+count = 1
+
+while count <= 5:
+    voter = input('Voters name: ')
+    for k, v in master_voting_list.items():
+        if k == voter:
+            voted_voters_list[k] = v
+            del remaining_voters_list[k]
+            count += 1
+else:
+    print(f'Voters voted list: {voted_voters_list}')
+    print(f'Remaining voters list: {remaining_voters_list}')
+
