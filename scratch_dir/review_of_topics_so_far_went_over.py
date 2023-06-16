@@ -55,4 +55,10 @@
         creates the named file if it is NOT existing in the specified location
         if the file exists in the specified location, then the contents of the file is overwritten when the file opened
     if we want to open a file for reading and writing, then we need to specify 'r+'
+
+10. Data Types:
+    tuple:
+        One thing special about tuple is - it is the data type of the members of the collection dict_items
+        When we handle the variable kwargs, each member (that is tuple)will have ONLY 2 elements to unpack
+        and hence we can safely use k, v pattern. Otherwise, we can also use item[0] and item[1] pattern.
 '''
