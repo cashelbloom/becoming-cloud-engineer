@@ -1,0 +1,10 @@
+{
+  "teamNames": [
+    {"name": "Ganges Grandmasters", "abbr": "GG"},
+    {"name": "Triveni Continental Kings", "abbr": "TCK"},
+    {"name": "SG Alpine Warriors" ,"abbr": "SG"},
+    {"name": "Chingari Gulf Titans" ,"abbr": "CGT"},
+    {"name": "upGrad Mumba Masters" ,"abbr": "UMM"},
+    {"name": "Balan Alaskan Knights" ,"abbr": "BAK"}
+  ]
+}
