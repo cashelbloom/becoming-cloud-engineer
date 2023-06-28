@@ -6,10 +6,10 @@ class Player:
         self.category = category
 
     def __str__(self):
-        return f'Name is: {self.name}, Category is: {self.category} '
+        return f'Player Name is: {self.name}, Player Category is: {self.category} '
 
 
-print(f'This is the value of __name__ variable: {__name__}')
+
 
 
 
