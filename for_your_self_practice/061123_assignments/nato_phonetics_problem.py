@@ -19,14 +19,32 @@ The .csv file is located in the 'data_folder' and the file name is: 'nato_phonet
 
 import json
 
+# with open('example.json','r') as read_nato_file:
+#      j = json.load(read_nato_file)
+#      print(j)
+#      print(type(j))
 
-with open('../../data_folder/nato_phonetic_alphabet.csv','r') as read_nato_file:
-     read_nato_file.read()
-     # nato_dic = json.load(read_nato_file)
-     # print(nato_dic)
+nato_dict = {}
+with open('../../data_folder/nato_phonetic_alphabet.csv', 'r') as read_nato_file:
+    lines = read_nato_file.read().splitlines()
+    print(type(lines))
+    print(lines)
+    for line in lines:
+        nato = line.split(',')
+        nato_dict[nato[0]] = nato[1]
+print(nato_dict)
 
-with open('example.json','r') as read_nato_file:
-     j = json.load(read_nato_file)
-     print(j)
-     print(type(j))
+word = input("Enter any word: ").upper()
+word_list = list(word)
+print(word_list)
+
+word_dict = {}
+
+nato_dict_keys = nato_dict.keys()
+print(nato_dict_keys)
+
+for w in word_list:
+     if w in nato_dict.keys():
+          word_dict[w] = nato_dict[w]
+print(word_dict)
 
