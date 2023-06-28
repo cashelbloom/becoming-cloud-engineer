@@ -1,0 +1,26 @@
+Classes:
+	1. Player
+		Attributes:
+			name
+			category
+	2. Team
+		name
+		players
+		points
+		
+		add_player()
+		
+	3. Match
+		teams
+		
+		assign_color()
+		declare_board_result()
+		declare_match_result()
+		assign_points()
+	
+	4. TournamentStatus
+		results_summary
+		
+		display_results_summary()
+		
+		

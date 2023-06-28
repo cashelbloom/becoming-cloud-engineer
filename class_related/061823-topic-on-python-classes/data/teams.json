@@ -1,0 +1,106 @@
+{
+  "teams": [
+    {
+      "teamName": "Ganges Grandmasters",
+      "teamMembers": {
+        "icon": "Viswanathan Anand",
+        "members": {
+          "superStarMen": [
+            "Richárd Rapport",
+            "Leinier Domínguez Pérez"
+          ],
+          "superStarWomen": [
+            "Hou Yifan",
+            "Bella Khotenashvili"
+          ],
+          "prodigy": "Andrey Esipenko"
+        }
+      }
+    },
+    {
+      "teamName": "Triveni Continental Kings",
+      "teamMembers": {
+        "icon": "Ding Liren",
+        "members": {
+          "superStarMen": [
+            "Wei Yi",
+            "Yu Yangyi"
+          ],
+          "superStarWomen": [
+            "Kateryna Lagno",
+            "Nana Dzagnidze"
+          ],
+          "prodigy": "Jonas Buhl Bjerre"
+        }
+      }
+    },
+    {
+      "teamName": "SG Alpine Warriors",
+      "teamMembers": {
+        "icon": "Magnus Carlsen",
+        "members": {
+          "superStarMen": [
+            "Gukesh D",
+            "Arjun Erigaisi"
+          ],
+          "superStarWomen": [
+            "Elisabeth Pähtz",
+            "Irina Krush"
+          ],
+          "prodigy": "Praggnanandhaa R"
+        }
+      }
+    },
+    {
+      "teamName": "Chingari Gulf Titans",
+      "teamMembers": {
+        "icon": "Jan-Krzysztof Duda",
+        "members": {
+          "superStarMen": [
+            "Shakhriyar Mamedyarov",
+            "Daniil Dubov"
+          ],
+          "superStarWomen": [
+            "Alexandra Kosteniuk",
+            "Polina Shuvalova"
+          ],
+          "prodigy": "Nihal Sarin"
+        }
+      }
+    },
+    {
+      "teamName": "upGrad Mumba Masters",
+      "teamMembers": {
+        "icon": "Maxime Vachier-Lagrave",
+        "members": {
+          "superStarMen": [
+            "Vidit Gujrathi",
+            "Alexander Grischuk"
+          ],
+          "superStarWomen": [
+            "Koneru Humpy",
+            "Harika Dronavalli"
+          ],
+          "prodigy": "Javokhir Sindarov"
+        }
+      }
+    },
+    {
+      "teamName": "Balan Alaskan Knights",
+      "teamMembers": {
+        "icon": "Ian Nepomniachtchi",
+        "members": {
+          "superStarMen": [
+            "Teimour Radjabov",
+            "Nodirbek Abdusattorov"
+          ],
+          "superStarWomen": [
+            "Tan Zhongyi",
+            "Nino Batsiashvili"
+          ],
+          "prodigy": "Raunak Sadhwani"
+        }
+      }
+    }
+  ]
+}
