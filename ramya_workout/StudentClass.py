@@ -6,5 +6,5 @@ class Student:
     def avg(self):
         return sum(self.grade)/len(self.grade)
 
-student_one = Student('Ramya',[78,79,86,98])
-print(student_one)
+student_one = Student('Ramya')
+print(student_one.name)
