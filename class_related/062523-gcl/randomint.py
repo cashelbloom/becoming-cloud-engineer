@@ -19,15 +19,17 @@ class RandIntGen:
         print(f'start: {self.start} stop: {self.stop} seq: {self.seq}')
         # print(f'start: {self.start} stop: {self.stop}')
 
-my_rand_int_gen = RandIntGen(0,2)
-random_num_list = []
-are_numbers_distinct = True
-while are_numbers_distinct:
-    random_num_list = [random_num for random_num in my_rand_int_gen.generate_rand_int(2)]
-    if random_num_list[0] == random_num_list[1]:
-        continue
-    else:
-        are_numbers_distinct = False
-
-print(f'The two numbers are: {random_num_list}')
+# my_rand_int_gen = RandIntGen(0,2)
+# random_num_list = []
+# are_numbers_distinct = True
+# # while are_numbers_distinct:
+# for i in range(0, 100):
+#     random_num_list = [random_num for random_num in my_rand_int_gen.generate_rand_int(2)]
+#     print(f'The first number is: {random_num_list[0]} and the second number is {random_num_list[1]}')
+#     # if random_num_list[0] == random_num_list[1]:
+#     #     continue
+#     # else:
+#     #     are_numbers_distinct = False
+#
+# print(f'The two numbers are: {random_num_list}')
 

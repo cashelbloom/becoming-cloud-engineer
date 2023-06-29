@@ -3,10 +3,10 @@ from player import Player
 
 
 class Team:
-    def __init__(self, name, abbr, players=None, game_points=0, match_points=0):
+    def __init__(self, name, abbr, game_points=0, match_points=0):
         self.name = name
         self.abbr = abbr
-        self.players = players
+        self.players = []
         self.game_points = game_points
         self.match_points = match_points
 
@@ -17,8 +17,8 @@ class Team:
         for player in self.players:
             print(player)
 
-    def add_player(self, players):
-        for player in players:
+    def add_player(self, players_from_outside):
+        for player in players_from_outside:
             self.players.append(player)
 
 

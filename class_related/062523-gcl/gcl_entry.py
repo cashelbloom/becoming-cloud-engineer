@@ -16,16 +16,17 @@ def build_teams(player_path, team_path):
     start = 0
     end = 6
     for team in team_names_list:
-        players = []
-        team_object = Team(team['name'], team['abbr'], players)
+        players_coll = []
+        team_object = Team(team['name'], team['abbr'],players_coll)
         # team_object.add_player(player_names_list)
         for i in range(start, end):
             player = player_names_list[i]
             player_object = Player(player['name'], player['category'])
-            players.append(player_object)
+            players_coll.append(player_object)
+        team_object.add_player(players_coll)
+        TEAMS.append(team_object)
         start += 6
         end += 6
-        TEAMS.append(team_object)
 
 
 def main():
@@ -36,6 +37,8 @@ def main():
         for player in team.players:
             print(player)
 
+
 if __name__ == "__main__":
+    print(f'This is the value of __name__ internal variable value: {__name__}')
     main()
 
