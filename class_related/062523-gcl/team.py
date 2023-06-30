@@ -9,6 +9,7 @@ class Team:
         self.players = []
         self.game_points = game_points
         self.match_points = match_points
+        self.match_color = ''
 
     def __str__(self):
         return f'Team Name is: {self.name} and the Abbreviation is: {self.abbr}'
