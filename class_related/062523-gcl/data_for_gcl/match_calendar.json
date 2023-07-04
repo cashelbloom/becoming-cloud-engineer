@@ -1,0 +1,25 @@
+{
+  "match_calendar": [
+    {"date":  "07/02/23", "paring": [
+      {"matchNumber": 1, "team1": "GG", "team2": "SG"},
+      {"matchNumber": 2, "team1": "TCK", "team2": "CGT"},
+      {"matchNumber": 3, "team1": "BAK", "team2": "UMM"},
+      {"matchNumber": 4, "team1": "CGT", "team2": "GG"}
+      ]
+    },
+    {"date":  "07/03/23", "paring": [
+      {"matchNumber": 5, "team1": "SG", "team2": "TCK"},
+      {"matchNumber": 6, "team1": "UMM", "team2": "CGT"},
+      {"matchNumber": 7, "team1": "GG", "team2": "BAK"},
+      {"matchNumber": 8, "team1": "TCK", "team2": "UMM"}
+      ]
+    },
+    {"date":  "07/03/24", "paring": [
+      {"matchNumber": 9, "team1": "SG", "team2": "TCK"},
+      {"matchNumber": 10, "team1": "UMM", "team2": "CGT"},
+      {"matchNumber": 11 "team1": "GG", "team2": "BAK"},
+      {"matchNumber": 12, "team1": "TCK", "team2": "UMM"}
+      ]
+    }
+  ]
+}
