@@ -33,7 +33,9 @@ def sum_variable_keyword_args_passed(**kwargs):
     sum = 0
     for item in kwargs.items():
         print(f'the data type of item is: {type(item)}')
+        print(f'{item}')
         print(f'the data type of first element in the tuple is: {item[0]}')
+        print(f'{kwargs}')
         sum += int(item[1])
     return sum
 
