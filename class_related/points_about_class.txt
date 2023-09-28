@@ -18,4 +18,14 @@ __str__ built-in function:
 self - can be any name. But it has to be the first parameter as the class is defined and in any function parameter list.
 
 del key word to delete (for deleting a property as well as 
+
+-------------------------------
+inheritance:
+	In the class declaration of the child class, have a pair of parantheses and inside them include the name of the class that would be its parent class.
+	example:
+		parent class name is: Voter
+		child class name is: MaleVoter
+			child class declaration:
+				class MaleVoter(Voter):
+				
 		

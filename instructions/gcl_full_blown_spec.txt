@@ -1,0 +1,46 @@
+Global Chess League System:
+    Core Functionalities Needed:
+        1. Hold the data about each player, part of the league
+        2. Hold the data about team composition of all the 6 teams
+        3. Create a schedule of matches for both the round robins for all the teams
+            a. Schedule should hold data about:
+                Date of a Match
+                Time of Match
+                Teams Playing in a Match
+                Color Assigned to Each Team in a Match
+            b. Be able to display the schedule for a given date
+                The Data to Display are:
+                    Data of Match
+                    Time of Match (as Matches are played one after another)
+                    Pairing for Each Match
+                    Color of Each Team
+        4. For each match, store the results
+            a. After each match add the board points to:
+                The Player
+                The Team
+            b. Points award rules - Players:
+                If a player played with White color pieces, a win for that player will get 3 points
+                If a player played with Black color pieces, a win for that player will get 4 points
+                If the game ended in a draw, both players will get 1 point each
+                A player who lost their game will get 0 points
+            c. Points award rules - Teams:
+                The team whose sum of all the board points for a given match is higher than the other team's:
+                    3 Match Points are Awarded
+                    0 Match Points are Awarded to the team with lower points
+                In case both teams have the same number of game points, then each team will be awarded 1 point.
+            d. After each match add the match points to:
+                Each Team
+            e. After each match add the sum of the game points for that match to the sum of the game points of
+                all the previous matches
+
+        5. Provide current position of each team
+            a. Display teams in the order of the match points in DESCENDING Order
+            b. If two teams are tied in match points, use team game points to decide who would come before the other
+        6. Provide current position of each board
+            a. The board numbering is as below:
+                The Icon Board
+                The SuperStarMen 1 Board
+                The SuperStarMen 2 Board
+                The SuperStarWomen 1 Board
+                The SuperStarWomen 2 Board
+                The Prodigy Board

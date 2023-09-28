@@ -1,0 +1,48 @@
+OO Concept Points:
+	Inheritance and Composition that model the relationship between two classes.
+	Building blocks
+	Code Reusability
+		Both of them enable code reuse, but they do it in different ways.
+	
+	Inheritance:
+		Base class and specialized base class
+			a.k.a super class and sub class
+		establish an "is a" relationship between the super and sub class
+		Keyword "extends" indicates the inheritance relationship
+		Example:
+			Human and Man classes
+			Animal and Cow classes
+		his means that Horse inherits the interface and implementation of Animal, and Horse objects can be used to replace Animal objects in the application.
+
+		This is known as the Liskov substitution principle. The principle states that “in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desired properties of the program”.
+		
+		hierarchies of related classes
+	
+	Composition: 
+		Concept that models a "has a" relationship. 
+		It enables creating complex types by combining objects of other types. 
+		This means that a class Composite can contain an object of another class Component. 
+		This relationship means that a Composite has a Component.
+	
+	dir() built-in function in Python
+		returns a list of all members in a class
+
+	Abstract Class:
+		Abstract base classes exist to be inherited, but never instantiated. Python provides the abc module to define abstract base classes.
+		The abc module in the Python standard library provides functionality to prevent creating objects from abstract base classes.
+	
+		You’re telling users of the module that objects of type Employee can’t be created.
+		You’re telling other developers working on the hr module that 
+		if they derive from Employee, then they must override the .calculate_payroll() abstract method.
+	
+	Implementation Inheritance vs Interface Inheritance
+		When you derive one class from another, the derived class inherits both:
+			The base class interface: The derived class inherits all the methods, properties, and attributes of the base class.
+			The base class implementation: The derived class inherits the code that implements the class interface.
+		Most of the time, you’ll want to inherit the implementation of a class, 
+			but you will want to implement multiple interfaces, so your objects can be used in different situations.
+			
+		Modern programming languages are designed with this basic concept in mind. They allow you to inherit from a single class, but you can implement multiple interfaces.
+		In Python, you don’t have to explicitly declare an interface. Any object that implements the desired interface can be used in place of another object. This is known as duck typing. Duck typing is usually explained as “if it behaves like a duck, then it’s a duck.”
+			
+	
