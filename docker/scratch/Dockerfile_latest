@@ -1,0 +1,4 @@
+FROM nginx:latest
+WORKDIR /usr/share/nginx/html
+COPY index.html index.html
+# we don't have to specify either EXPOSE or CMD because they are included in the base image in FROM

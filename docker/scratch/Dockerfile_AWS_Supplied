@@ -1,0 +1,13 @@
+FROM public.ecr.aws/lambda/python:3.11
+COPY requirements.txt ${LAMBDA_TASK_ROOT}
+COPY lambda_function.py ${LAMBDA_TASK_ROOT}
+RUN pip install -r requirements.txt
+CMD [ "lambda_function.handler" ]
+# docker build command with options/flags:
+# docker build --platform linux/amd64 -t docker-image:test .
+# docker run command:
+# docker run -p 9000:8080 --name lambda-cont docker-image:test
+# This command runs the image as a container and creates a local endpoint 
+# at localhost:9000/2015-03-31/functions/function/invocations.
+# curl command to exeute the function:
+# curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
